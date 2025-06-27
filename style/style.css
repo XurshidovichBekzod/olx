@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1427px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+}
+
+.nav__btn button {
+    padding: 15px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: #02282C;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: start;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.card {
+    width: 300px;
+    height: 357px;
+    background-color: white;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 200px;
+    margin-bottom: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text {
+    margin-left: 10px;
+}
+
+.carName {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #02282C;
+}
+
+.carBrand {
+    margin-bottom: 3px;
+    color: #012E34;
+}
+
+.carColor {
+    margin-bottom: 3px;
+    color: #012E34
+}
+
+.carPrice {
+    margin-bottom: 10px;
+    color: #012E34
+}
+
+.btn {
+    padding: 7px 123px;
+    margin-left: -10px;
+    background-color: #012E34;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid #012E34;
+    cursor: pointer;
+}
+
+.popUp {
+    width: 300px;
+    height: 330px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    padding: 12px 10px;
+    border-radius: 7px;
+    background-color: #012E34;
+    color: white;
+    padding: 10px 15px;
+    transition: .3s;
+}
+
+.popUp.active {
+    top: -100%;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.popUp h1{
+    margin-bottom: 20px;
+}
+
+.popUp input{
+    padding: 0px 10px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+
+.dflex{
+    display: flex;
+    gap: 14px;
+    margin-top: 10px;
+}
+.sumbit{
+    padding: 10px  42px;
+    border: none;
+    border-radius: 3px;
+}
+.cancle{
+    padding: 10px  42px;
+    border: none;
+    border-radius: 3px;
+}
